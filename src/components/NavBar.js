@@ -2,6 +2,14 @@ import React from 'react';
 import styled from 'styled-components';
 import icono from '../img/hamburguer.png';
 
+/* Tarea
+//  Agregar styled components a Card 
+
+// Tarea para puntos extra 
+//  Agregar la lógica que hace que la tarjeta se vea gris /
+//  azul  dependiendo de la prop isAvailable */
+
+
 const Nav = styled.nav`
   background-color: ${prop => prop.hayEmergenciaAdopteril ? 'red' : '#1a75bc'};
   height: 80px;
@@ -48,4 +56,4 @@ const NavBar = ({ propNombre }) => {
 
 export default NavBar;
 
-// CSS-in-JS
+
